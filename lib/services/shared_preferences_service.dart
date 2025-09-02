@@ -2,7 +2,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/team.dart';
 import 'dart:convert';
 
-
 class SharedPreferencesService {
   static const _teamKey = 'favorite_team';
 

@@ -40,7 +40,7 @@ class _SelectTeamScreenState extends State<SelectTeamScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Escolha seu time')),
+      appBar: AppBar(title: const Text('Escolha seu time')),
       body: ListView.builder(
         itemCount: teams.length,
         itemBuilder: (_, index) {
